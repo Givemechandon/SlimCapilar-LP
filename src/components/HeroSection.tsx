@@ -27,19 +27,19 @@ const HeroSection = () => {
             <span className="inline-block mb-4 px-4 py-1 rounded-full bg-gradient-to-r from-primary via-blue-500 to-emerald-400 text-white text-xs font-semibold tracking-widest shadow-lg uppercase drop-shadow-lg">
               Slim Capilar
             </span>
-            <h1 className="text-5xl md:text-7xl font-black mb-8 leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-500 to-emerald-400 drop-shadow-[0_4px_32px_rgba(0,0,0,0.45)]">
-              Saúde e Beleza <br className="hidden md:block" />
-              para seus cabelos
+            <h1 className="text-5xl md:text-7xl font-black mb-8 leading-tight tracking-tight text-white drop-shadow-[0_4px_32px_rgba(0,0,0,0.45)]">
+              Queda de Cabelo ? <br className="hidden md:block" />A Clínica Slim
+              tem a Solução!
             </h1>
             <p className="text-lg md:text-2xl mb-10 max-w-xl leading-relaxed text-white font-medium drop-shadow-[0_2px_8px_rgba(0,0,0,0.25)]">
-              Recupere a autoestima com tratamentos modernos para queda, caspa,
-              dermatite e calvície.{" "}
-              <span className="font-bold text-white">Slim Capilar</span> é
+              A 45 anos sendo referência em tratamento capilar para homens,
+              mulheres e crianças.{" "}
+              <span className="font-bold text-white">Clínica Slim</span> é
               referência em saúde capilar.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto justify-center md:justify-start">
               <a
-                href="https://wa.me/551145213500?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta."
+                href="https://wa.me/551145213500?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20desconto."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
@@ -47,20 +47,12 @@ const HeroSection = () => {
                 <Button
                   variant="hero"
                   size="lg"
-                  className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-primary to-emerald-400 text-white font-bold text-lg shadow-xl hover:from-emerald-400 hover:to-primary hover:text-white transition-all duration-300 border-0 drop-shadow-lg"
+                  className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-green-500 text-white font-bold text-lg shadow-xl border-0 drop-shadow-lg transition-transform duration-300 hover:scale-105"
                 >
                   Agendar Consulta
                 </Button>
               </a>
-              <a href="#procedimentos" className="w-full sm:w-auto">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="w-full sm:w-auto px-8 py-4 rounded-xl border-2 border-primary text-primary font-bold text-lg bg-white/90 shadow-xl hover:bg-primary hover:text-white transition-all duration-300 drop-shadow-lg"
-                >
-                  Nossos Tratamentos
-                </Button>
-              </a>
+              <a href="#procedimentos" className="w-full sm:w-auto"></a>
             </div>
           </div>
 
@@ -74,7 +66,7 @@ const HeroSection = () => {
                 loop
                 muted
                 playsInline
-                className="h-[520px] w-auto rounded-[2.5rem] shadow-2xl border-4 border-white object-cover relative z-10"
+                className="h-[620px] w-auto rounded-[3.5rem] shadow-2xl border-4 border-white object-fill relative z-10"
                 poster={heroImage}
               />
             </div>
