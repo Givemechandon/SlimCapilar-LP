@@ -25,7 +25,7 @@ const HeroSection = () => {
           <Button variant="hero" size="lg" className="min-w-64">
             Agendar Consulta
           </Button>
-          <Button variant="outline" size="lg" className="min-w-64 border-white text-white hover:bg-white hover:text-primary">
+          <Button variant="outline" size="lg" className="min-w-64 border-white text-primary hover:bg-white hover:text-primary">
             Nossos Tratamentos
           </Button>
         </div>
