@@ -25,7 +25,7 @@ const HeroSection = () => {
           {/* Texto */}
           <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start">
             <span className="inline-block mb-4 px-4 py-1 rounded-full bg-gradient-to-r from-primary via-blue-500 to-emerald-400 text-white text-xs font-semibold tracking-widest shadow-lg uppercase drop-shadow-lg">
-              Slim Capilar
+              Clínica Slim
             </span>
             <h1 className="text-5xl md:text-7xl font-black mb-8 leading-tight tracking-tight text-white drop-shadow-[0_4px_32px_rgba(0,0,0,0.45)]">
               Queda de Cabelo ? <br className="hidden md:block" />A Clínica Slim

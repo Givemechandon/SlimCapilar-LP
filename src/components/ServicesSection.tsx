@@ -73,7 +73,7 @@ const ServicesSection = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Oferecemos procedimentos capilares especializadas com tecnologia
-            avançada e acompanhamento médico personalizado
+            avançada.
           </p>
         </div>
 

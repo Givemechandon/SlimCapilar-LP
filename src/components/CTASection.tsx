@@ -9,11 +9,10 @@ const CTASection = () => {
           <div className="order-2 lg:order-1">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Recupere a Saúde dos seus Cabelos com{" "}
-              <span className="text-primary">Tratamento Médico</span>
+              <span className="text-primary">A Clínica Slim</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Na Slim Capilar, utilizamos protocolos médicos avançados para
-              tratar problemas capilares desde a raiz, oferecendo soluções
+              Na Slim Capilar, oferecemos soluções
               eficazes e duradouras para sua autoestima.
             </p>
 
