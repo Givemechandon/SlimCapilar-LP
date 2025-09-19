@@ -39,10 +39,9 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto justify-center md:justify-start">
               <a
-                href="https://wa.me/5511952616079?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20desconto."
+                href="https://wa.me/5511952616079?text=Olá!%20Quero%20aproveitar%20o%20desconto%20de%2050%%20e%20agendar%20uma%20consulta!"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto"
               >
                 <Button
                   variant="hero"

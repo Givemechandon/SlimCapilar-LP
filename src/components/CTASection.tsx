@@ -12,8 +12,8 @@ const CTASection = () => {
               <span className="text-primary">A Clínica Slim</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Na Slim Capilar, oferecemos soluções
-              eficazes e duradouras para sua autoestima.
+              Na Slim Capilar, oferecemos soluções eficazes e duradouras para
+              sua autoestima.
             </p>
 
             <div className="space-y-4 mb-8">
@@ -37,7 +37,7 @@ const CTASection = () => {
               </div>
             </div>
             <a
-              href="https://wa.me/5511952616079?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20desconto."
+              href="https://wa.me/5511952616079?text=Olá!%20Quero%20aproveitar%20o%20desconto%20de%2050%%20e%20agendar%20uma%20consulta!"
               target="_blank"
               rel="noopener noreferrer"
             >
