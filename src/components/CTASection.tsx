@@ -12,38 +12,49 @@ const CTASection = () => {
               <span className="text-primary">Tratamento Médico</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Na Slim Capilar, utilizamos protocolos médicos avançados para tratar problemas capilares 
-              desde a raiz, oferecendo soluções eficazes e duradouras para sua autoestima.
+              Na Slim Capilar, utilizamos protocolos médicos avançados para
+              tratar problemas capilares desde a raiz, oferecendo soluções
+              eficazes e duradouras para sua autoestima.
             </p>
-            
+
             <div className="space-y-4 mb-8">
               <div className="flex items-center">
-                <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">✓</span>
+                <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">
+                  ✓
+                </span>
                 <span>Avaliação tricológica especializada</span>
               </div>
               <div className="flex items-center">
-                <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">✓</span>
+                <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">
+                  ✓
+                </span>
                 <span>Tecnologia médica avançada</span>
               </div>
               <div className="flex items-center">
-                <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">✓</span>
+                <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">
+                  ✓
+                </span>
                 <span>Acompanhamento médico personalizado</span>
               </div>
             </div>
-            
-            <Button variant="cta" size="lg" className="text-lg px-12 py-4">
-              Aproveitar Desconto de 50%
-            </Button>
-            
+            <a
+              href="https://wa.me/551145213500?text=Olá!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20desconto."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="cta" size="lg" className="text-lg px-12 py-4">
+                Aproveitar Desconto de 50%
+              </Button>
+            </a>
             <p className="text-sm text-muted-foreground mt-4">
               *Promoção válida apenas para novos clientes
             </p>
           </div>
-          
+
           <div className="order-1 lg:order-2">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
-              <img 
-                src={ctaImage} 
+              <img
+                src={ctaImage}
                 alt="Tratamento médico capilar profissional"
                 className="w-full h-[500px] object-cover"
               />
