@@ -7,36 +7,32 @@ import {
 
 const faqs = [
   {
-    question: "Quanto tempo dura uma consulta?",
-    answer: "Nossa consulta inicial tem duração de aproximadamente 60 minutos, incluindo análise capilar completa, diagnóstico personalizado e planejamento do tratamento ideal para você."
+    question: "O que é terapia capilar?",
+    answer: "A terapia capilar é um conjunto de tratamentos personalizados que visam restaurar a saúde do couro cabeludo e fortalecer os fios, combatendo problemas como queda, caspa, seborreia, dermatite e até estágios iniciais da calvície."
   },
   {
-    question: "Os tratamentos são adequados para todos os tipos de cabelo?",
-    answer: "Sim! Nossos profissionais são especializados em todos os tipos de cabelo. Fazemos uma análise detalhada para personalizar o tratamento de acordo com suas necessidades específicas."
+    question: "Como funciona a primeira consulta?",
+    answer: "Na primeira consulta, um especialista realiza uma avaliação completa do couro cabeludo e dos fios, utilizando equipamentos modernos para identificar a causa do problema e indicar o tratamento mais adequado para você."
   },
   {
-    question: "Qual a duração dos resultados?",
-    answer: "A duração varia conforme o tipo de tratamento. Hidratações duram 2-3 semanas, alisamentos de 3-6 meses, e colorações de 4-8 semanas. Oferecemos orientações para manutenção."
+    question: "Em quanto tempo vejo resultados?",
+    answer: "Os resultados variam de pessoa para pessoa, mas em geral é possível notar melhorias a partir do primeiro mês, especialmente em relação à diminuição da queda, fortalecimento dos fios e melhora da saúde do couro cabeludo."
   },
   {
-    question: "Posso fazer mais de um tratamento por sessão?",
-    answer: "Dependendo do estado do seu cabelo, alguns tratamentos podem ser combinados. Nossa equipe avaliará a melhor sequência para garantir a saúde e beleza dos seus fios."
+    question: "A terapia capilar é indicada para qualquer pessoa?",
+    answer: "Sim. Homens e mulheres de todas as idades podem se beneficiar dos tratamentos, desde que apresentem problemas relacionados ao couro cabeludo ou fios, como queda, oleosidade excessiva, caspa ou ressecamento."
   },
   {
-    question: "Como funciona a garantia?",
-    answer: "Oferecemos 100% de garantia de satisfação. Se não ficar completamente satisfeito com o resultado, refazemos o procedimento sem custo adicional."
+    question: "Os tratamentos são dolorosos?",
+    answer: "Não. Os procedimentos são minimamente invasivos, indolores e realizados de forma segura. Muitos pacientes descrevem as sessões como relaxantes."
   },
   {
-    question: "Preciso agendar com antecedência?",
-    answer: "Sim, recomendamos agendamento com pelo menos 48h de antecedência. Para tratamentos mais complexos, sugerimos uma semana de antecedência."
+    question: "Quais são as terapias capilares oferecidas na Slim Capilar?",
+    answer: "Na Slim Capilar, oferecemos uma variedade de tratamentos personalizados, como: Tratamento para queda de cabelo (incluindo calvície e alopecia androgenética), Terapia para caspa e seborreia, Tratamentos para dermatite do couro cabeludo, Revitalização capilar com tecnologias avançadas. Cada terapia é adaptada às necessidades específicas do paciente para garantir os melhores resultados."
   },
   {
-    question: "Quais produtos vocês utilizam?",
-    answer: "Trabalhamos apenas com produtos profissionais das melhores marcas do mercado, livres de sulfatos e parabenos, garantindo resultados excepcionais e segurança."
-  },
-  {
-    question: "O desconto de 50% se aplica a todos os serviços?",
-    answer: "O desconto de 50% é válido para a consulta inicial (de R$ 400 por R$ 200). Outros serviços têm valores específicos e podem ter promoções sazonais."
+    question: "Onde fica localizada a Slim Capilar?",
+    answer: "A clínica está localizada em R. Itália, 251 - Jardim Cica, Jundiaí - SP, em um espaço acolhedor e de fácil acesso. Após o agendamento, você receberá todas as informações detalhadas para sua visita."
   }
 ];
 
@@ -47,7 +43,7 @@ const FAQSection = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">Perguntas Frequentes</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Tire suas dúvidas sobre nossos tratamentos e serviços
+            Tire suas dúvidas sobre nossos tratamentos e terapias capilares
           </p>
         </div>
         

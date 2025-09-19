@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import ctaImage from "@/assets/cta-image.jpg";
+import ctaImage from "@/assets/cta-clinic.jpg";
 
 const CTASection = () => {
   return (
@@ -8,26 +8,26 @@ const CTASection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Transformação Garantida em{" "}
-              <span className="text-primary">Uma Sessão</span>
+              Recupere a Saúde dos seus Cabelos com{" "}
+              <span className="text-primary">Tratamento Médico</span>
             </h2>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Nossos tratamentos exclusivos são desenvolvidos para entregar resultados visíveis 
-              desde a primeira aplicação. Recupere a autoestima e a beleza dos seus cabelos.
+              Na Slim Capilar, utilizamos protocolos médicos avançados para tratar problemas capilares 
+              desde a raiz, oferecendo soluções eficazes e duradouras para sua autoestima.
             </p>
             
             <div className="space-y-4 mb-8">
               <div className="flex items-center">
                 <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">✓</span>
-                <span>Diagnóstico capilar gratuito</span>
+                <span>Avaliação tricológica especializada</span>
               </div>
               <div className="flex items-center">
                 <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">✓</span>
-                <span>Produtos profissionais exclusivos</span>
+                <span>Tecnologia médica avançada</span>
               </div>
               <div className="flex items-center">
                 <span className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white text-sm mr-4 flex-shrink-0">✓</span>
-                <span>Acompanhamento pós-tratamento</span>
+                <span>Acompanhamento médico personalizado</span>
               </div>
             </div>
             
@@ -44,7 +44,7 @@ const CTASection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img 
                 src={ctaImage} 
-                alt="Cliente satisfeita com tratamento capilar"
+                alt="Tratamento médico capilar profissional"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute top-6 right-6 bg-primary text-primary-foreground px-4 py-2 rounded-full font-bold">

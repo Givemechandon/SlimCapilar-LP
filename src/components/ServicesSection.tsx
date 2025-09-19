@@ -2,40 +2,34 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const services = [
   {
-    title: "Tratamento Capilar",
-    description: "Hidratação profunda para cabelos danificados e ressecados",
-    price: "A partir de R$ 150",
-    features: ["Análise capilar completa", "Produtos premium", "Resultado imediato"]
+    title: "Tratamento para Queda de Cabelo",
+    description: "Terapia especializada para calvície e alopecia androgenética",
+    features: ["Análise tricológica completa", "Tecnologia avançada", "Tratamento personalizado"]
   },
   {
-    title: "Corte & Styling",
-    description: "Cortes modernos e estilização profissional",
-    price: "A partir de R$ 80",
-    features: ["Consultoria de estilo", "Técnicas avançadas", "Finalização profissional"]
+    title: "Terapia para Caspa e Seborreia",
+    description: "Tratamento médico para problemas do couro cabeludo",
+    features: ["Diagnóstico especializado", "Protocolo médico", "Controle efetivo"]
   },
   {
-    title: "Coloração",
-    description: "Coloração e mechas com produtos de alta qualidade",
-    price: "A partir de R$ 200",
-    features: ["Cores personalizadas", "Produtos sem amônia", "Proteção capilar"]
+    title: "Tratamento para Dermatite",
+    description: "Terapia especializada para dermatite do couro cabeludo",
+    features: ["Avaliação dermatológica", "Tratamento anti-inflamatório", "Recuperação da saúde capilar"]
   },
   {
-    title: "Alisamento",
-    description: "Alisamentos duradouros e naturais",
-    price: "A partir de R$ 300",
-    features: ["Técnicas modernas", "Efeito natural", "Longa duração"]
+    title: "Revitalização Capilar",
+    description: "Tecnologias avançadas para revitalização dos fios",
+    features: ["Equipamentos modernos", "Estimulação folicular", "Regeneração capilar"]
   },
   {
-    title: "Reconstrução",
-    description: "Reconstrução completa para cabelos muito danificados",
-    price: "A partir de R$ 250",
-    features: ["Reconstrução profunda", "Fortalecimento", "Nutrição intensa"]
+    title: "Fortalecimento Capilar",
+    description: "Tratamento intensivo para fortalecimento dos fios",
+    features: ["Nutrição profunda", "Reconstrução capilar", "Prevenção da quebra"]
   },
   {
-    title: "Extensões",
-    description: "Alongamento e aumento de volume natural",
-    price: "A partir de R$ 400",
-    features: ["Cabelo natural", "Aplicação segura", "Resultado imediato"]
+    title: "Microinfusão de Medicamentos",
+    description: "Aplicação direta de medicamentos no couro cabeludo",
+    features: ["Técnica minimamente invasiva", "Absorção direcionada", "Resultados potencializados"]
   }
 ];
 
@@ -44,9 +38,9 @@ const ServicesSection = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Nossos Serviços</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Nossos Tratamentos</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Oferecemos uma gama completa de tratamentos capilares com as melhores técnicas e produtos do mercado
+            Oferecemos terapias capilares especializadas com tecnologia avançada e acompanhamento médico personalizado
           </p>
         </div>
         
@@ -56,7 +50,6 @@ const ServicesSection = () => {
               <CardHeader>
                 <CardTitle className="text-primary">{service.title}</CardTitle>
                 <CardDescription className="text-base">{service.description}</CardDescription>
-                <div className="text-2xl font-bold text-primary">{service.price}</div>
               </CardHeader>
               <CardContent>
                 <ul className="space-y-2">

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-salon.jpg";
+import heroImage from "@/assets/hero-clinic.jpg";
 
 const HeroSection = () => {
   return (
@@ -12,13 +12,13 @@ const HeroSection = () => {
       
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Transforme Seus Cabelos
+          Tratamentos Capilares que
           <br />
-          <span className="text-primary-foreground">Com Excelência</span>
+          <span className="text-primary-foreground">Transformam sua Autoestima</span>
         </h1>
         
         <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed opacity-90">
-          Tratamentos capilares profissionais que devolvem vida, brilho e saúde aos seus cabelos
+          Homens e mulheres que sofrem com queda de cabelo, caspa, dermatite, seborreia ou calvície encontram na Slim Capilar a solução completa para recuperar a saúde dos fios.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -26,23 +26,8 @@ const HeroSection = () => {
             Agendar Consulta
           </Button>
           <Button variant="outline" size="lg" className="min-w-64 border-white text-white hover:bg-white hover:text-primary">
-            Nossos Serviços
+            Nossos Tratamentos
           </Button>
-        </div>
-        
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-          <div className="text-center">
-            <div className="text-3xl font-bold">15+</div>
-            <div className="text-sm opacity-80">Anos de Experiência</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold">5000+</div>
-            <div className="text-sm opacity-80">Clientes Satisfeitos</div>
-          </div>
-          <div className="text-center">
-            <div className="text-3xl font-bold">100%</div>
-            <div className="text-sm opacity-80">Garantia de Qualidade</div>
-          </div>
         </div>
       </div>
     </section>
