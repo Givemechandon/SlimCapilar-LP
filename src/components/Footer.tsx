@@ -19,7 +19,7 @@ const Footer = () => {
             <Button
               variant="hero"
               size="lg"
-              className="bg-white text-primary hover:bg-black/60 hover:text-white"
+              className="bg-white text-primary hover:bg-green-500 hover:text-white"
             >
               Agendar Agora
             </Button>
