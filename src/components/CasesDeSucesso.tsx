@@ -6,8 +6,11 @@ const CasesDeSucesso = () => {
   return (
     <section className="w-full bg-primary py-10 flex flex-col items-center">
       <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-8 text-center drop-shadow-lg">
-        Nossos Resultados
+        Nossos Resultados Comprovam Nossa Eficácia
       </h2>
+      <p className="text-lg md:text-xl text-muted-foreground text-white max-w-2xl mx-auto px-4 mb-6 text-center">
+        Veja Antes e Depois de Nossos Pacientes
+      </p>
       <div className="flex flex-col md:flex-row gap-8 items-center justify-center mb-8 w-full max-w-4xl">
         {/* Masculino */}
         <div className="flex flex-col items-center w-full md:w-1/2">
@@ -43,7 +46,7 @@ const CasesDeSucesso = () => {
         href="https://wa.me/5511952616079?text=Olá!%20Quero%20um%20resultado%20assim!"
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center gap-3 bg-white text-primary font-bold text-base px-8 py-4 rounded-full shadow-lg hover:bg-emerald-400 hover:text-white transition-all duration-300"
+        className="flex items-center uppercase gap-3 bg-white text-primary font-bold text-base px-8 py-4 rounded-full shadow-lg hover:bg-emerald-400 hover:text-white transition-all duration-300"
       >
         Quero um resultado assim!
         <FaArrowRight className="text-lg" />

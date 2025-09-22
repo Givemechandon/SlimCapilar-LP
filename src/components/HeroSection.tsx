@@ -32,12 +32,13 @@ const HeroSection = () => {
               Clínica Slim
             </span>
             <h1 className="text-5xl md:text-7xl font-black mb-8 leading-tight tracking-tight text-white drop-shadow-[0_4px_32px_rgba(0,0,0,0.45)]">
-              Queda de Cabelo ? <br className="hidden md:block" />A Clínica Slim
+              Queda de Cabelo? <br className="hidden md:block" />A Clínica Slim
               tem a Solução!
             </h1>
             <p className="text-lg md:text-2xl mb-10 max-w-xl leading-relaxed text-white font-medium drop-shadow-[0_2px_8px_rgba(0,0,0,0.25)]">
               Há 45 anos sendo referência em tratamento capilar para homens,
               mulheres e crianças.{" "}
+              <br/>
               <span className="font-bold text-white">Clínica Slim</span> é
               referência em saúde capilar.
             </p>
@@ -50,9 +51,9 @@ const HeroSection = () => {
                 <Button
                   variant="hero"
                   size="lg"
-                  className="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-green-500 text-white font-bold text-lg shadow-xl border-0 drop-shadow-lg transition-transform duration-300 hover:scale-105"
+                  className="w-full uppercase sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-green-500 text-white font-bold text-lg shadow-xl border-0 drop-shadow-lg transition-transform duration-300 hover:scale-105"
                 >
-                  Agendar Consulta
+                  Agendar Consulta com Desconto de 50%
                 </Button>
               </a>
               <a href="#procedimentos" className="w-full sm:w-auto"></a>
@@ -64,10 +65,10 @@ const HeroSection = () => {
               <div className="absolute -inset-2 rounded-2xl bg-gradient-to-br from-primary via-blue-400 to-emerald-400 blur-2xl opacity-40 pointer-events-none z-0" />
               <iframe
                 className="relative z-10 w-full h-full rounded-2xl"
-                src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&mute=1&controls=1`}
+                src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&mute=1&controls=1&loop=1&playlist=${YOUTUBE_VIDEO_ID}`}
                 title="Vídeo do YouTube"
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allow="accelerometer; loop; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
             </div>

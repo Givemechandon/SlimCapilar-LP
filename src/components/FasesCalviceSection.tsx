@@ -9,31 +9,38 @@ import feminina3 from "@/assets/feminina3.png";
 import feminina4 from "@/assets/feminina4.png";
 import feminina5 from "@/assets/feminina5.png";
 
+const whatsappNumber = "5511952616079";
+
 const fasesMasculinas = [
   {
     titulo: "Fase 1",
     descricao: "Início da calvície masculina: entradas discretas.",
     imagem: masculino1,
+    fase: 1,
   },
   {
     titulo: "Fase 2",
     descricao: "Entradas mais evidentes e rarefação no topo.",
     imagem: masculino2,
+    fase: 2,
   },
   {
     titulo: "Fase 3",
     descricao: "Rarefação acentuada no topo e nas entradas.",
     imagem: masculino3,
+    fase: 3,
   },
   {
     titulo: "Fase 4",
     descricao: "Perda significativa de fios, áreas extensas sem cabelo.",
     imagem: masculino4,
+    fase: 4,
   },
   {
     titulo: "Fase 5",
     descricao: "Calvície avançada, grande parte do couro cabeludo exposto.",
     imagem: masculino5,
+    fase: 5,
   },
 ];
 
@@ -42,26 +49,31 @@ const fasesFemininas = [
     titulo: "Fase 1",
     descricao: "Início da calvície feminina: afinamento dos fios.",
     imagem: feminina1,
+    fase: 1,
   },
   {
     titulo: "Fase 2",
     descricao: "Diminuição do volume e rarefação difusa.",
     imagem: feminina2,
+    fase: 2,
   },
   {
     titulo: "Fase 3",
     descricao: "Rarefação mais acentuada no topo da cabeça.",
     imagem: feminina3,
+    fase: 3,
   },
   {
     titulo: "Fase 4",
     descricao: "Áreas visíveis do couro cabeludo.",
     imagem: feminina4,
+    fase: 4,
   },
   {
     titulo: "Fase 5",
     descricao: "Perda intensa de fios em toda a cabeça.",
     imagem: feminina5,
+    fase: 5,
   },
 ];
 
@@ -93,7 +105,15 @@ const FasesCalviceSection = () => (
                 />
               </div>
               <h4 className="text-xl font-bold text-primary mb-2">{fase.titulo}</h4>
-              <p className="text-base text-primary/80">{fase.descricao}</p>
+              <p className="text-base text-primary/80 mb-4">{fase.descricao}</p>
+              <a
+                href={`https://wa.me/${whatsappNumber}?text=Estou%20na%20fase%20${fase.fase}%20masculina%20e%20quero%20a%20consulta%20com%2050%%20de%20desconto!`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto px-4 py-2 rounded-lg bg-primary text-white font-semibold text-sm hover:bg-emerald-500 transition-colors duration-200 shadow"
+              >
+                Estou na fase {fase.fase}
+              </a>
             </div>
           ))}
         </div>
@@ -115,10 +135,29 @@ const FasesCalviceSection = () => (
                 />
               </div>
               <h4 className="text-xl font-bold text-emerald-600 mb-2">{fase.titulo}</h4>
-              <p className="text-base text-primary/80">{fase.descricao}</p>
+              <p className="text-base text-primary/80 mb-4">{fase.descricao}</p>
+              <a
+                href={`https://wa.me/${whatsappNumber}?text=Estou%20na%20fase%20${fase.fase}%20feminina%20e%20quero%20a%20consulta%20com%2050%%20de%20desconto!`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-auto px-4 py-2 rounded-lg bg-emerald-500 text-white font-semibold text-sm hover:bg-primary transition-colors duration-200 shadow"
+              >
+                Estou na fase {fase.fase}
+              </a>
             </div>
           ))}
         </div>
+      </div>
+      {/* Botão para quem não tem certeza da fase */}
+      <div className="flex justify-center mt-12">
+        <a
+          href={`https://wa.me/${whatsappNumber}?text=Ol%C3%A1%2C%20n%C3%A3o%20tenho%20certeza%20de%20qual%20fase%20estou%2C%20mas%20quero%20a%20consulta%20com%2050%%20de%20desconto!`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 uppercase rounded-xl bg-emerald-600 text-white font-bold text-base shadow-xl hover:scale-105 transition-transform duration-200"
+        >
+          Não tenho certeza de qual fase estou
+        </a>
       </div>
     </div>
   </section>
