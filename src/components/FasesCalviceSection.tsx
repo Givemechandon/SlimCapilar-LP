@@ -78,39 +78,39 @@ const fasesFemininas = [
 ];
 
 const FasesCalviceSection = () => (
-  <section className="py-20 bg-gradient-to-br from-primary/10 via-white to-blue-50">
-    <div className="container mx-auto px-4">
-      <div className="text-center mb-14">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-black drop-shadow-lg">
+  <section className="py-16 bg-gradient-to-br from-primary/10 via-white to-blue-50">
+    <div className="container mx-auto px-2 sm:px-4">
+      <div className="text-center mb-10">
+        <h2 className="text-3xl md:text-5xl font-extrabold mb-3 text-black drop-shadow-lg">
           Fases da Calvície
         </h2>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+        <p className="text-base md:text-xl text-muted-foreground max-w-2xl mx-auto">
           Conheça as principais etapas da evolução da calvície masculina e feminina.
         </p>
       </div>
-      <div className="mb-12">
-        <h3 className="text-2xl font-bold text-primary mb-6 text-center">Masculino</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+      <div className="mb-10">
+        <h3 className="text-xl md:text-2xl font-bold text-primary mb-4 text-center">Masculino</h3>
+        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
           {fasesMasculinas.map((fase, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col items-center p-6 border-t-4 border-primary group"
+              className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col items-center p-4 border-t-4 border-primary group"
             >
-              <div className="w-full flex justify-center mb-4">
+              <div className="w-full flex justify-center mb-3">
                 <img
                   src={fase.imagem}
                   alt={fase.titulo}
-                  className="h-40 w-auto object-contain rounded-2xl group-hover:scale-105 transition-transform duration-300"
+                  className="h-32 w-auto object-contain rounded-xl group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />
               </div>
-              <h4 className="text-xl font-bold text-primary mb-2">{fase.titulo}</h4>
-              <p className="text-base text-primary/80 mb-4">{fase.descricao}</p>
+              <h4 className="text-lg font-bold text-primary mb-1">{fase.titulo}</h4>
+              <p className="text-sm text-primary/80 mb-3 text-center">{fase.descricao}</p>
               <a
                 href={`https://wa.me/${whatsappNumber}?text=Estou%20na%20fase%20${fase.fase}%20masculina%20e%20quero%20a%20consulta%20com%2050%%20de%20desconto!`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-auto px-4 py-2 rounded-lg bg-primary text-white font-semibold text-sm hover:bg-emerald-500 transition-colors duration-200 shadow"
+                className="mt-auto px-3 py-2 rounded-lg bg-primary text-white font-semibold text-xs hover:bg-emerald-500 transition-colors duration-200 shadow w-full text-center"
               >
                 Estou na fase {fase.fase}
               </a>
@@ -119,28 +119,28 @@ const FasesCalviceSection = () => (
         </div>
       </div>
       <div>
-        <h3 className="text-2xl font-bold text-emerald-600 mb-6 text-center">Feminino</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <h3 className="text-xl md:text-2xl font-bold text-emerald-600 mb-4 text-center">Feminino</h3>
+        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6">
           {fasesFemininas.map((fase, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col items-center p-6 border-t-4 border-emerald-400 group"
+              className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col items-center p-4 border-t-4 border-emerald-400 group"
             >
-              <div className="w-full flex justify-center mb-4">
+              <div className="w-full flex justify-center mb-3">
                 <img
                   src={fase.imagem}
                   alt={fase.titulo}
-                  className="h-40 w-auto object-contain rounded-2xl group-hover:scale-105 transition-transform duration-300"
+                  className="h-32 w-auto object-contain rounded-xl group-hover:scale-105 transition-transform duration-300"
                   loading="lazy"
                 />
               </div>
-              <h4 className="text-xl font-bold text-emerald-600 mb-2">{fase.titulo}</h4>
-              <p className="text-base text-primary/80 mb-4">{fase.descricao}</p>
+              <h4 className="text-lg font-bold text-emerald-600 mb-1">{fase.titulo}</h4>
+              <p className="text-sm text-primary/80 mb-3 text-center">{fase.descricao}</p>
               <a
                 href={`https://wa.me/${whatsappNumber}?text=Estou%20na%20fase%20${fase.fase}%20feminina%20e%20quero%20a%20consulta%20com%2050%%20de%20desconto!`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-auto px-4 py-2 rounded-lg bg-emerald-500 text-white font-semibold text-sm hover:bg-primary transition-colors duration-200 shadow"
+                className="mt-auto px-3 py-2 rounded-lg bg-emerald-500 text-white font-semibold text-xs hover:bg-primary transition-colors duration-200 shadow w-full text-center"
               >
                 Estou na fase {fase.fase}
               </a>
@@ -149,7 +149,7 @@ const FasesCalviceSection = () => (
         </div>
       </div>
       {/* Botão para quem não tem certeza da fase */}
-      <div className="flex justify-center mt-12">
+      <div className="flex justify-center mt-10">
         <a
           href={`https://wa.me/${whatsappNumber}?text=Ol%C3%A1%2C%20n%C3%A3o%20tenho%20certeza%20de%20qual%20fase%20estou%2C%20mas%20quero%20a%20consulta%20com%2050%%20de%20desconto!`}
           target="_blank"

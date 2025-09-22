@@ -37,8 +37,7 @@ const HeroSection = () => {
             </h1>
             <p className="text-lg md:text-2xl mb-10 max-w-xl leading-relaxed text-white font-medium drop-shadow-[0_2px_8px_rgba(0,0,0,0.25)]">
               Há 45 anos sendo referência em tratamento capilar para homens,
-              mulheres e crianças.{" "}
-              <br/>
+              mulheres e crianças. <br />
               <span className="font-bold text-white">Clínica Slim</span> é
               referência em saúde capilar.
             </p>
@@ -51,7 +50,7 @@ const HeroSection = () => {
                 <Button
                   variant="hero"
                   size="lg"
-                  className="w-full uppercase sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-green-500 text-white font-bold text-lg shadow-xl border-0 drop-shadow-lg transition-transform duration-300 hover:scale-105"
+                  className="w-full uppercase sm:w-auto px-4 md:px-8 py-3 md:py-4 rounded-xl bg-gradient-to-r from-green-500 to-green-500 text-white font-bold text-base md:text-lg shadow-xl border-0 drop-shadow-lg transition-transform duration-300 hover:scale-105"
                 >
                   Agendar Consulta com Desconto de 50%
                 </Button>
