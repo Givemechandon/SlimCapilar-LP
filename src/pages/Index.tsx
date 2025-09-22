@@ -5,9 +5,9 @@ import CTASection from "@/components/CTASection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
-import WhatsAppButton from "@/components/whatsapp";
+import WhatsAppButton from "@/components/Whatsapp";
 
-const Index = () => {
+function Index() {
   return (
     <div className="min-h-screen">
       <HeaderBanner />
@@ -20,6 +20,6 @@ const Index = () => {
       <WhatsAppButton />
     </div>
   );
-};
+}
 
 export default Index;
