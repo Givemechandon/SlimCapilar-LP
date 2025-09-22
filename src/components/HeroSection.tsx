@@ -1,6 +1,11 @@
 import { Button } from "@/components/ui/button";
+import { FaYoutube } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
 import heroImage from "@/assets/hero-clinic.jpg";
-import heroVideo from "@/assets/hero-video.mp4";
+
+// Substitua pelo ID do vídeo do YouTube desejado
+const YOUTUBE_VIDEO_ID = "ZMWMm2x54JY"; // Exemplo: "dQw4w9WgXcQ"
+const YOUTUBE_LINK = `https://www.youtube.com/watch?v=${YOUTUBE_VIDEO_ID}`;
 
 const HeroSection = () => {
   return (
@@ -16,7 +21,6 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-tr from-white/40 via-transparent to-white/60" />
       {/* Overlay azul com opacidade */}
       <div className="absolute inset-0 bg-black-400 opacity-30 mix-blend-multiply pointer-events-none" />
-
       {/* Overlay escuro para dar contraste ao texto */}
       <div className="absolute inset-0 bg-black/20 md:bg-black/30 pointer-events-none" />
 
@@ -55,20 +59,30 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Vídeo vertical com efeito neon */}
-          <div className="w-full md:w-1/2 flex justify-center items-center mb-10 md:mb-0">
-            <div className="relative">
-              <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-br from-primary via-blue-400 to-emerald-400 blur-2xl opacity-40 pointer-events-none" />
-              <video
-                src={heroVideo}
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="h-[620px] w-auto rounded-[3.5rem] shadow-2xl border-4 border-white object-fill relative z-10"
-                poster={heroImage}
+          {/* Vídeo YouTube responsivo horizontal e maior */}
+          <div className="w-full md:w-1/2 flex flex-col items-center justify-center mb-10 md:mb-0">
+            <div className="relative w-full max-w-[900px] aspect-video rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+              <div className="absolute -inset-2 rounded-2xl bg-gradient-to-br from-primary via-blue-400 to-emerald-400 blur-2xl opacity-40 pointer-events-none z-0" />
+              <iframe
+                className="relative z-10 w-full h-full rounded-2xl"
+                src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&mute=1&controls=1`}
+                title="Vídeo do YouTube"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
               />
             </div>
+            {/* Frase e ícone abaixo do vídeo */}
+            <a
+              href={YOUTUBE_LINK}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group mt-6 flex items-center gap-2 text-lg font-bold text-white hover:text-emerald-400 transition-colors duration-200 bg-white/10 px-5 py-3 rounded-xl shadow-lg backdrop-blur-sm"
+            >
+              <FaYoutube className="text-2xl text-red-600 group-hover:text-red-700 transition-colors duration-200" />
+              Veja o Vídeo Completo!
+              <FaArrowRight className="text-xl text-white group-hover:text-emerald-400 transition-colors duration-200" />
+            </a>
           </div>
         </div>
       </div>
