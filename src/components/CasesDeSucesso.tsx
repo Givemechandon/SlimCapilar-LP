@@ -31,10 +31,9 @@ const CasesDeSucesso = () => {
           <div className="w-full aspect-[16/9] bg-white/10 rounded-2xl shadow-lg border-4 border-white overflow-hidden flex items-center justify-center">
             <img
               src={aedfeminino}
-              alt="Antes e Depois Feminino"
-              className="max-w-full max-h-full w-full h-full object-contain"
+              alt="Antes e Depois Masculino"
+              className="w-full h-full object-cover"
               loading="lazy"
-              style={{ background: "#fff", display: "block" }}
             />
           </div>
           <span className="mt-2 text-white text-xs italic font-medium">
