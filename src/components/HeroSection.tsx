@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { FaYoutube } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import heroImage from "@/assets/hero-clinic.jpg";
+import { FaArrowDown } from "react-icons/fa6";
 
-// Substitua pelo ID do vídeo do YouTube desejado
-const YOUTUBE_VIDEO_ID = "ZMWMm2x54JY"; // Exemplo: "dQw4w9WgXcQ"
+const YOUTUBE_VIDEO_ID = "ZMWMm2x54JY";
 const YOUTUBE_LINK = `https://www.youtube.com/watch?v=${YOUTUBE_VIDEO_ID}`;
 
 const HeroSection = () => {
@@ -17,11 +17,11 @@ const HeroSection = () => {
           filter: "blur(4px) brightness(0.3)",
         }}
       />
-      {/* Overlay com gradiente suave */}
+
       <div className="absolute inset-0 bg-gradient-to-tr from-white/40 via-transparent to-white/60" />
-      {/* Overlay azul com opacidade */}
+
       <div className="absolute inset-0 bg-black-400 opacity-30 mix-blend-multiply pointer-events-none" />
-      {/* Overlay escuro para dar contraste ao texto */}
+
       <div className="absolute inset-0 bg-black/20 md:bg-black/30 pointer-events-none" />
 
       <div className="relative z-10 container mx-auto px-6 py-24">
@@ -59,7 +59,6 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Vídeo YouTube responsivo horizontal e maior */}
           <div className="w-full md:w-1/2 flex flex-col items-center justify-center mb-10 md:mb-0">
             <div className="relative w-full max-w-[900px] aspect-video rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
               <div className="absolute -inset-2 rounded-2xl bg-gradient-to-br from-primary via-blue-400 to-emerald-400 blur-2xl opacity-40 pointer-events-none z-0" />
@@ -72,7 +71,6 @@ const HeroSection = () => {
                 allowFullScreen
               />
             </div>
-            {/* Frase e ícone abaixo do vídeo */}
             <a
               href={YOUTUBE_LINK}
               target="_blank"
@@ -85,6 +83,12 @@ const HeroSection = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="absolute left-1/2 bottom-8 -translate-x-1/2 flex flex-col items-center z-20">
+        <span className="text-white text-base font-semibold mb-2 drop-shadow-lg">
+          Role para baixo
+        </span>
+        <FaArrowDown className="text-3xl text-emerald-400 animate-bounce" />
       </div>
     </section>
   );
