@@ -36,7 +36,7 @@ const HeroSection = () => {
               tem a Solução!
             </h1>
             <p className="text-lg md:text-2xl mb-10 max-w-xl leading-relaxed text-white font-medium drop-shadow-[0_2px_8px_rgba(0,0,0,0.25)]">
-              A 45 anos sendo referência em tratamento capilar para homens,
+              Há 45 anos sendo referência em tratamento capilar para homens,
               mulheres e crianças.{" "}
               <span className="font-bold text-white">Clínica Slim</span> é
               referência em saúde capilar.
