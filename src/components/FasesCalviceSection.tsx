@@ -69,10 +69,10 @@ const FasesCalviceSection = () => (
   <section className="py-20 bg-gradient-to-br from-primary/10 via-white to-blue-50">
     <div className="container mx-auto px-4">
       <div className="text-center mb-14">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-primary drop-shadow-lg">
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-black drop-shadow-lg">
           Fases da Calvície
         </h2>
-        <p className="text-lg md:text-xl text-primary/80 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
           Conheça as principais etapas da evolução da calvície masculina e feminina.
         </p>
       </div>
