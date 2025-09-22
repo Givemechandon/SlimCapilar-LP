@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
             <h4 className="text-xl font-semibold mb-4">Contato</h4>
-            <p className="mb-2">📞 (11) 4587-0085</p>
+            <p className="mb-2">📞 (11) 95261-6079</p>
             <p className="mb-2">📧 contato@clinicaslim.com.br</p>
             <p>📍 R. Itália, 251 - Jardim Cica, Jundiaí - SP</p>
           </div>
@@ -44,7 +44,7 @@ const Footer = () => {
             <h4 className="text-xl font-semibold mb-4">Redes Sociais</h4>
             <p className="mb-2">📱 @clinicaslim_jundiai</p>
             <p className="mb-2">📘 Clínica Slim Jundiaí</p>
-            <p>💬 WhatsApp: (11) 4587-0085</p>
+            <p>💬 WhatsApp: (11) 95261-6079</p>
           </div>
         </div>
 
